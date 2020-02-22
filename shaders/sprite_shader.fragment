@@ -1,0 +1,12 @@
+#version 330 core
+layout (location = 0) out vec4 fragColor;
+
+in vec2 TexCoords;
+
+uniform sampler2D image;
+uniform vec4 spriteColor;
+
+void main()
+{    
+    fragColor = vec4(spriteColor) * texture(image, TexCoords);
+}  

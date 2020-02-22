@@ -1,0 +1,15 @@
+#version 330 core
+in vec2 TexCoords;
+in vec4 ParticleColor;
+out vec4 color;
+
+uniform sampler2D sprite;
+uniform float life;
+
+void main()
+{
+    if ((texture(sprite, TexCoords) * ParticleColor).a == 0.0f)
+        color = texture(sprite, TexCoords) * ParticleColor;
+    else
+        color = vec4((texture(sprite, TexCoords) * ParticleColor)) * vec4(1.0, 1.0, 1.0, life/2);
+}  
