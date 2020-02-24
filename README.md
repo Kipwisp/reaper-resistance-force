@@ -12,7 +12,7 @@ In-game:
 ![Alt text](img/game.PNG?raw=true "In-game")
 
 ## Download
-Download the latest release [here](https://github.com/Kipwisp/reaper-resistance-force/releases/latest/download/ReaperResistanceForce.zip).
+Download the latest release [here](https://github.com/Kipwisp/reaper-resistance-force/releases/latest/download/reaper-resistance-force.zip).
 
 ## Installation
 
